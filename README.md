@@ -18,44 +18,44 @@ A simple HTML page called Ping Pong Generator. Ping Pong Generator will take a n
 
 ## Specification
 * The program will determine that only number input is accepted and not text
-⋅⋅* Input Example: text
-⋅⋅* Output Example:
+  * Input Example: text
+  * Output Example:
 
 * The program will determine that only number input is accepted and not special characters
-⋅⋅* Input Example: #@@
-⋅⋅* Output Example:
+  * Input Example: #@@
+  * Output Example:
 
 * The program will only accept integers and alert the user when the number is not.
-⋅⋅* Input Example: 3.5
-⋅⋅* Output Example: "Please enter a valid value. The nearest valid values are 3 and 4"
+  * Input Example: 3.5
+  * Output Example: "Please enter a valid value. The nearest valid values are 3 and 4"
 
 * The program will only accept positive integers and alert the user when the number is not.
-⋅⋅* Input Example: -3
-⋅⋅* Output Example: "Please put in positive integers"
+  * Input Example: -3
+  * Output Example: "Please put in positive integers"
 
 * The program will only accept one number.
-⋅⋅* Input Example: 23 24
-⋅⋅* Output Example: 2324
+  * Input Example: 23 24
+  * Output Example: 2324
 
 * The program will count up to the provided number.
-⋅⋅* Input Example: 2
-⋅⋅* Output Example: [1,2]
+  * Input Example: 2
+  * Output Example: [1,2]
 
 * The program will count up to the provided number and replace it if it with "ping" is divisible by 3.
-⋅⋅* Input Example: 3
-⋅⋅* Output Example: [1,2,"ping"]
+  * Input Example: 3
+  * Output Example: [1,2,"ping"]
 
 * The program will count up to the provided number and replace it if it with "ping" is divisible by 3, and replace it if it with "pong" is divisible by 5.
-⋅⋅* Input Example: 5
-⋅⋅* Output Example: [1,2,"ping",4,"pong"]
+  * Input Example: 5
+  * Output Example: [1,2,"ping",4,"pong"]
 
 * The program will count up to the provided number and replace it if it with "ping" is divisible by 3, and replace it if it with "pong" is divisible by 5, and replace it if it with "ping-pong" is divisible by 15.
-⋅⋅* Input Example: 16
-⋅⋅* Output Example: ["1", "2", "ping", "4", "pong", "ping", "7", "8", "ping", "pong", "11", "ping", "13", "14", "ping-pong", "16"]
+  * Input Example: 16
+  * Output Example: ["1", "2", "ping", "4", "pong", "ping", "7", "8", "ping", "pong", "11", "ping", "13", "14", "ping-pong", "16"]
 
 * The program will clear the previous result, count up to the provided number and replace it if it with "ping" is divisible by 3, and replace it if it with "pong" is divisible by 5, and replace it if it with "ping-pong" is divisible by 15.
-⋅⋅* Input Example: 8
-⋅⋅* Output Example: ["1", "2", "ping", "4", "pong", "ping", "7", "8"]
+  * Input Example: 8
+  * Output Example: ["1", "2", "ping", "4", "pong", "ping", "7", "8"]
 
 
 ## Known Bugs
