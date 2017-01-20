@@ -26,6 +26,7 @@ function generator () {
 $("document").ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
+    $("#generated").fadeOut("fast");
     Input = parseInt($("#userinput").val());
     generator(Input);
   });
