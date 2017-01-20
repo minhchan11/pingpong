@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="JS/jquery-3.1.1.js"type="text/javascript"></script>
+    <script src="JS/script.js"type="text/javascript"></script>
+    <title>Ping Pong</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="jumbotron">Ping Pong Generator</h1>
+      <h2>Generate a number list with Ping Pong</h2>
+      <h4>Ping Pong will takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:</h4><br>
+       <ol>
+         <li>Numbers divisible by 3 are replaced with "ping"</li>
+         <li>Numbers divisible by 5 are replaced with "pong"</li>
+         <li>Numbers divisible by 15 are replaced with "ping-pong"</li>
+       </ol>
+      <form class="form-group">
+        <label for="Enter">Enter any random number:</label>
+        <input type="number" class="form-control" id="userinput">
+        <button type="submit" class="btn btn-large btn-success">Ping Pong let's generate!</button>
+      </form>
+      <div>
+        <ul><span id="result"></span></ul>
+      </div>
+    </div>
+  </body>
+</html>
