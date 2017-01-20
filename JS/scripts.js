@@ -16,7 +16,8 @@ function generator () {
       } else if (i % 5 === 0) {
         result = "pong"
       }
-      $("#result").append("<li>"+result+"</li>")
+      $("#result").append("<li>"+result+"</li>");
+      $("#generated").fadeIn(2000);
     };
   };
 };

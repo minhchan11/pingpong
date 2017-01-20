@@ -34,3 +34,7 @@ p {
 #title {
   text-align: center;
 }
+
+#generated {
+  display: none;
+}
