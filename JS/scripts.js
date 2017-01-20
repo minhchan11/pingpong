@@ -17,7 +17,7 @@ function generator () {
         result = "pong"
       }
       $("#result").append("<li>"+result+"</li>");
-      $("#generated").fadeIn(2000);
+
     };
   };
 };
@@ -26,8 +26,10 @@ function generator () {
 $("document").ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
-    $("#generated").fadeOut("fast");
+    $("#generated").slideUp(200);
     Input = parseInt($("#userinput").val());
+    $("#generated").fadeIn(2000);
     generator(Input);
+
   });
 });
