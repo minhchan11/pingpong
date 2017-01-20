@@ -2,10 +2,12 @@ body {
   color: rgb(122, 134, 133);
   background-color: rgb(219, 235, 212);
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
 }
 
 button {
   margin-top: 15px;
+  font-size: 18px;
   background-color: rgba(35, 205, 180, 0.33);
 }
 
@@ -23,12 +25,22 @@ h5 {
 }
 
 p {
-  font-size: 15px;
   font-style: italic;
 }
 
 .info {
   text-align: right;
+}
+
+.form-control {
+  background-color: rgba(255, 251, 194, 0.81);
+  font-size: 20px;
+  color: rgb(122, 134, 133);
+}
+
+.jumbotron {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #title {
