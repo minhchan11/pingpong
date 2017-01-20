@@ -1,21 +1,18 @@
 //BUSINESS LOGIC
-var Input = 0;;
-var Output = []
+var Input = 0;
+var result = 0;
 
 function generator () {
   for (var i = 1; i <= Input; i++) {
-    Output.push(i);
-    for (var j = 0; j < Output.length; j++) {
-      if ( Output[j] % 15 === 0){
-        Output.splice(j,1,"ping-pong");
-      } else if (Output[j] % 3 === 0) {
-        Output.splice(j,1,"ping");
-      } else if (Output[j] % 5 === 0) {
-        Output.splice(j,1,"pong");
-      };
-      $("#result").append("<li>"+Output[j]+"</li>")
-    }
-
+    result = i.toString();
+    if ( i % 15 === 0){
+        result = "ping-pong"
+      } else if (i % 3 === 0) {
+        result = "ping"
+      } else if (i % 5 === 0) {
+        result = "pong"
+      }
+      $("#result").append("<li>"+result+"</li>")
   };
 };
 
