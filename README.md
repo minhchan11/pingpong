@@ -11,6 +11,8 @@ A simple HTML page called Ping Pong Generator. Ping Pong Generator will take a n
 * Numbers divisible by 5 are replaced with "pong"
 * Numbers divisible by 15 are replaced with "ping-pong"
 
+GitHub link : https://minhchan11.github.io/pingpong/
+
 ## Setup/Installation Requirements
 
 * Clone From GitHub
