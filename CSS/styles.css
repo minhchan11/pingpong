@@ -1,0 +1,36 @@
+body {
+  color: rgb(122, 134, 133);
+  background-color: rgb(219, 235, 212);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+button {
+  margin-top: 15px;
+  background-color: rgba(35, 205, 180, 0.33);
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  color: rgb(80, 101, 133);
+}
+
+h5 {
+  color: rgb(156, 217, 189)
+}
+
+p {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.info {
+  text-align: right;
+}
+
+#title {
+  text-align: center;
+}
